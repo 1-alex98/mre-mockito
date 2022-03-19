@@ -11,6 +11,6 @@ public class Works {
 
     @Test
     public void foo(){
-        assert toBeInitialized.initializedByConstructor;
+        assert toBeInitialized.toBeMocked == null;
     }
 }

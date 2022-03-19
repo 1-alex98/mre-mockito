@@ -4,6 +4,7 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+
 public class DoesNotWork extends ToBeExtended{
     @Mock
     ToBeMocked toBeMocked;
@@ -12,6 +13,6 @@ public class DoesNotWork extends ToBeExtended{
 
     @Test
     public void foo(){
-        assert toBeInitialized.initializedByConstructor;
+        assert toBeInitialized.toBeMocked == null;
     }
 }

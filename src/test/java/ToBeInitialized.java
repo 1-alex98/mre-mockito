@@ -1,10 +1,8 @@
 public class ToBeInitialized {
-    private ToBeMocked toBeMocked;
-    public boolean initializedByConstructor;
+    public ToBeMocked toBeMocked;
 
     public ToBeInitialized(ToBeMocked toBeMocked) {
-        this.toBeMocked = toBeMocked;
-        initializedByConstructor = true;
+        this.toBeMocked = null;
     }
 
     public void setToBeMocked(ToBeMocked toBeMocked) {
