@@ -4,8 +4,4 @@ public class ToBeInitialized {
     public ToBeInitialized(ToBeMocked toBeMocked) {
         this.toBeMocked = null;
     }
-
-    public void setToBeMocked(ToBeMocked toBeMocked) {
-        this.toBeMocked = toBeMocked;
-    }
 }
